@@ -1,0 +1,8 @@
+domain_name: example.com
+ssl_certificate: /etc/letsencrypt/live/example.com/fullchain.pem
+ssl_certificate_key: /etc/letsencrypt/live/example.com/privkey.pem
+root_dir: /var/www/html
+django_static_dir: /app/static/
+django_media_dir: /app/media/
+django_socket: http://django:8000
+nextjst_socket: http://nextjs_upstream

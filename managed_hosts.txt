@@ -1,0 +1,7 @@
+[loadbalancers]
+ha1 ansible_host=10.10.1.1
+ha2 ansible_host=10.10.1.2
+
+[webservers]
+web1 ansible_host=10.10.1.1
+web2 ansible_host=10.10.1.2

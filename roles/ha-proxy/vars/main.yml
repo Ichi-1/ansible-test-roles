@@ -1,0 +1,4 @@
+ha_proxy_listen_port: 8080
+web1_ip: 10.10.1.3
+web2_ip: 10.10.1.4
+nginx_listen_port: 80
