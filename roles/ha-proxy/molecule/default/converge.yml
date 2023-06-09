@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ha-proxy"
+      include_role:
+        name: "ha-proxy"

@@ -1,3 +1,7 @@
+- name: Show Ansible configuration file
+  debug:
+    var: ansible_config
+
 - hosts: webservers
   become: yes
   roles:
